@@ -1,16 +1,26 @@
-body {background: color #d5e1ef, important !important;}
-.component-card {background-color: #fff;border-radius: 10px; border:black 2px solid;}
+body {background-color: #d5e1ef!important;}
+.component-card {background-color: #fff;border-radius: 10px; max-width: 325px; min-height:50%;}
 .component {
 
-width: 288px;
+width: 288px !important;
 height: 288px;
 
 background: #2C7DFA;
 border-radius: 10px;
-padding:15px;
+margin-top: 15px !important;
 flex: none;
 order: 0;
 flex-grow: 0;
 }
-
+.qr-card {justify-content: center;
+    text-align: center;
+    display: flex;
+    height:100vh;
+  }
 .component, .component-card {border-radius: 10px;}
+.component-text {width: 288px !important;bottom: 5%;position: relative;}
+.card-header {font-weight: bold; color:#1F314F;}
+.instructions {color:#68778D;}
+.instructions, .card-header {margin-top: 10%;position: relative;}
+
+.qr-code {max-width: 288px; max-height: 288px;border-radius: 10px;}
