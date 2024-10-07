@@ -12,3 +12,5 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+.component, .component-card {border-radius: 10px;}
