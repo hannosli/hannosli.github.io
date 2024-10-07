@@ -1,0 +1,14 @@
+body {background-color:#D5E1EF;}
+.component-card {background-color: #fff;}
+.component {
+
+width: 288px;
+height: 288px;
+
+background: #2C7DFA;
+border-radius: 10px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
