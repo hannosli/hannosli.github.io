@@ -1,5 +1,5 @@
 body {background: color #d5e1ef, important !important;}
-.component-card {background-color: #fff;}
+.component-card {background-color: #fff;border-radius: 10px;}
 .component {
 
 width: 288px;
@@ -7,7 +7,7 @@ height: 288px;
 
 /* background: #2C7DFA; */
 border-radius: 10px;
-
+padding:15px;
 flex: none;
 order: 0;
 flex-grow: 0;
