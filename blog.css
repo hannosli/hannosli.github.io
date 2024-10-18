@@ -15,5 +15,5 @@ svg {border-radius: 10px;}
     max-width: fit-content;
     margin-top: 20px;}
 .card-inner-body {text-align: left;}
-.card-inner-body h3 {font-weight: bold;}
+.card-inner-body h3 {font-weight: bold; font-size: 1.25rem !important;}
 .card-inner-body h3:hover {color:#F4D04E;}
