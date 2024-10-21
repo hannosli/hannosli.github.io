@@ -1,8 +1,8 @@
 body {background-color: #141414 !important; font-size:14px; height:100vh;}
-.card {background-color: #1f1f1f !important;}
+.card-body {background-color: #1f1f1f !important; max-width:500px;}
 .description {color:#fff;}
-.user-image {border-radius: 50px;}
+.user-image {border-radius: 100px;}
 .user-name{font-weight: bold; color:#fff;}
 .location {color:hsl(75, 94%, 57%);}
-.social-button {background-color: #333333; color:#fff; border-radius:10px; border: none !important; padding:10px; font-weight: bold;}
+.social-button {background-color: #333333; color:#fff; border-radius:10px; border: none !important; padding:10px; font-weight: bold; min-width:40%;}
 .social-button:hover {background-color: hsl(75, 94%, 57%);}
