@@ -9,6 +9,6 @@ body {background-color: #141414 !important; font-size:14px; height:100vh;}
 h1, .h1, h2, .h2{color:#fff;}
 
 @media (max-width: 885px) {
-    .card-body-custom {max-width: 400px;}
+    .card-body-custom {max-width: 400px !important;}
 }
     
