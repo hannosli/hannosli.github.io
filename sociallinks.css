@@ -3,6 +3,7 @@ body {background-color: #141414 !important; font-size:14px; height:100vh;}
 .description {color:#fff;}
 .user-image {border-radius: 100px;}s
 .user-name{font-weight: bold; color:#fff;}
-.location {color:hsl(75, 94%, 57%);}
+.location {color:hsl(75, 94%, 57%); font-weight: bold;}
 .social-button {background-color: #333333; color:#fff; border-radius:10px; border: none !important; padding:10px; font-weight: bold; min-width:80%;}
 .social-button:hover {background-color: hsl(75, 94%, 57%);}
+h1, .h1, h2, .h2{color:#fff;}
