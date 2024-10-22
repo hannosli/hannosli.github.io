@@ -6,4 +6,11 @@
 #F3E5D7 lightest beige stone
 #854632 brown */
 
-body {background-color:#F3E5D7; margin:0; height:100vh;}
+body {background: color #f3e5d7 !important;; margin:0; height:100vh;}
+.recipe-card {
+    background: #fff;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+    width: 300px;
+}
