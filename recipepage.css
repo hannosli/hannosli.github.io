@@ -1,16 +1,28 @@
 /* #7A284E dark rose
-#FFF7FB light
+#FFF7FB light rose
 #312E2C dark stone
 #5F564D light stone
 #E3DDD7 lighter gray stone
 #F3E5D7 lightest beige stone
 #854632 brown */
+h1, h2 {color:#000; font-weight:bold !important;}
+h3 {color:#854632; font-weight:bold !important;}
+h6, .numbers {color:#7A284E; font-weight:bold !important;}
 
-body {display:flex; justify-content:center; align-items:center; background-color:#f3e5d7 !important;; margin:0; height:100vh;}
+body {justify-content:center; align-items:center; background-color:#f3e5d7 !important; margin:0; height:100vh;}
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding:5%; 
+}
 .recipe-card {
     background: #fff;
     border-radius: 10px;
     /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     padding: 20px;
-    width: 300px;
+    width: 700px;
 }
+.prep-section {background-color:#FFF7FB;}
+.recipe-img {border-radius: 10px;}
+table tbody tr {border-bottom:#333333;}
